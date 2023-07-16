@@ -23,7 +23,7 @@ const Main = ({ searchResults }) => {
       <br />
       {searchResults.map((result) => (
         <div key={result.defid}>
-          <h1 className='text-warning fw-bold'>{result.word}</h1>
+          <h1 className='text-warning fw-bold my-bouncing-animation'>{result.word}</h1>
           <p className="text-warning fw-bold">Definition: {result.definition}</p>
           <p className="text-warning italic">Example: {result.example}</p>
           <p className='text-white'>👍 {result.thumbs_up}</p>
