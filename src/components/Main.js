@@ -9,7 +9,7 @@ const Main = ({ searchResults }) => {
   if (!searchResults) {
     return (
       <div className="text-warning text-center">
-        <div className="d-flex justify-content-center pt-5">
+        <div className="d-flex justify-content-center pt-5 pb-4">
           <div className="card" style={{ width: '18rem' }}>
             <img className="card-img-top bg-warning shadow-lg" src={landingImage} alt="image" />
             <div className="card-body bg-warning shadow-lg">
