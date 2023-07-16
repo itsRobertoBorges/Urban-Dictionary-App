@@ -16,10 +16,18 @@ body {
   100% { transform: scale(1); }
 }
 
+
 .my-bouncing-animation {
   animation-name: myBouncingAnimation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
 }
+
+html, body {
+  cursor: url('./assets/cursor_img.png'), auto;
+}
+
+
+ 
 
 
