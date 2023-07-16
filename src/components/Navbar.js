@@ -35,11 +35,11 @@ const Navbar = () => {
       <nav className="navbar bg-warning bg-gradient shadow-lg fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand text-primary fw-bold fw-italic">Urban Dictionary API Application</a>
-          <form className="d-flex align-items-center mx-6" onSubmit={handleSearch} role="search">
+          <form className="d-flex" onSubmit={handleSearch} role="search">
             <input
               className="form-control me-2 shadow"
               type="search"
-              style={{ width: '300px' }}
+              style={{ width: '270px' }}
               placeholder="Search"
               aria-label="Search"
               value={searchTerm}

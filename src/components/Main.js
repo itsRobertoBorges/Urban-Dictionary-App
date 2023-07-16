@@ -9,8 +9,8 @@ const Main = ({ searchResults }) => {
   if (!searchResults) {
     return (
       <div className="text-warning text-center">
-        <div className="d-flex justify-content-center pt-5 pb-4">
-          <div className="card" style={{ width: '18rem' }}>
+        <div className="d-flex justify-content-center mt-5">
+          <div className="card mt-5" style={{ width: '18rem' }}>
             <img className="card-img-top bg-warning shadow-lg" src={landingImage} alt="image" />
             <div className="card-body bg-warning shadow-lg">
               <h5 className="card-title text-primary fw-bold">Made by: Roberto Borges</h5>
@@ -36,7 +36,7 @@ const Main = ({ searchResults }) => {
   }
 
   return (
-    <div className="container shadow-lg">
+    <div className="container shadow-lg mt-5">
       <br />
       <br />
       {searchResults.map((result) => (
