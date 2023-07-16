@@ -43,6 +43,7 @@ const Main = ({ searchResults }) => {
         <div key={result.defid}>
           <h1 className="text-warning fw-bold my-bouncing-animation gradient-text">{result.word}</h1>
           <p className="text-warning fw-bold">Definition: {result.definition}</p>
+          <p className="text-warning italic">Author: {result.author}</p>
           <p className="text-warning italic">Example: {result.example}</p>
           <p className="text-white">👍 {result.thumbs_up}</p>
           <p className="text-white">👎 {result.thumbs_down}</p>
