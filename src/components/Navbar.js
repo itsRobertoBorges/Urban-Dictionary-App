@@ -32,19 +32,20 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar bg-warning bg-gradient">
+      <nav className="navbar bg-warning bg-gradient shadow-lg">
         <div className="container-fluid">
           <a className="navbar-brand text-primary fw-bold fw-italic">Urban Dictionary API Application</a>
-          <form className="d-flex" onSubmit={handleSearch} role="search">
+          <form className="d-flex align-items-center mx-6" onSubmit={handleSearch} role="search">
             <input
-              className="form-control me-2"
+              className="form-control me-2 shadow"
               type="search"
+              style={{ width: '300px' }}
               placeholder="Search"
               aria-label="Search"
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
             />
-            <button className="btn btn-outline-success bg-primary text-white" type="button" onClick={handleSearch}>
+            <button className="btn btn-outline-success bg-primary text-white shadow" type="submit">
               Search
             </button>
           </form>
