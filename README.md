@@ -1,6 +1,6 @@
 # Dictionary Application
 
-This is a dictionary application built using React and Bootstrap. It allows users to search for word definitions using the Urban Dictionary API.
+This is a dictionary application built mainly for mobile devices using React and Bootstrap. It allows users to search for word definitions using the Urban Dictionary API.
 
 ## Features
 
