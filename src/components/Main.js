@@ -8,22 +8,22 @@ const Main = ({ searchResults }) => {
 
   if (!searchResults) {
     return (
-      <div className="text-warning text-center">
-        <div className="d-flex justify-content-center mt-5">
-          <div className="card mt-5" style={{ width: '50vh', animation: 'myBouncingAnimationCard 2s', outline: 'none' }}>
-            <img className="card-img-top shadow-lg" src={landingImage} alt="image" style={{ backgroundColor: "#0275d8" }} />
-            <div className="card-body shadow-lg" style={{ backgroundColor: "#0275d8" }}>
-              <h5 className="card-title text-warning fw-bold">Made by: Roberto Borges</h5>
-              <p className="card-text text-warning italic">
-                If you're unsure what to do right now, type in any word in the search bar and you will receive definitions from the Urban Dictionary API! Otherwise, view my portfolio.
-              </p>
-              <a href="http://robertoborges.ca" className="btn btn-primary bg-warning text-primary fw-bold">
-                View my website
-              </a>
-            </div>
-          </div>
+      <div className="hero-section text-white text-center py-5" style={{ backgroundColor: "#0275d8" }}>
+        <div className="hero-section text-white text-center py-5" style={{ backgroundColor: "#0275d8" }}>
+        <div className="container">
+          <img className="rounded-circle mb-4" src={landingImage} alt="Roberto Borges" width="350" height="450" />
+          <h1 className="display-4 fw-bold mb-4">Made by: Roberto Borges</h1>
+          <p className="lead">
+            If you're unsure what to do right now, type in any word in the search bar and you will receive definitions from the Urban Dictionary API! Otherwise, view my portfolio.
+          </p>
+          <a href="http://robertoborges.ca" className="btn btn-primary bg-warning text-primary fw-bold">
+            View my website
+          </a>
         </div>
       </div>
+      </div>
+
+
 
     );
   }
