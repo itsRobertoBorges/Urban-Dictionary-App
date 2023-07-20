@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar bg-warning bg-gradient shadow-lg fixed-top">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand text-primary fw-bold fw-italic">Urban Dictionary API Application</a>
           <form className="d-flex" onSubmit={handleSearch} role="search">
             <input
