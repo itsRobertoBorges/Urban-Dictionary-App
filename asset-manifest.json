@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Urban-Dictionary-App/static/css/main.b2294b72.css",
-    "main.js": "/Urban-Dictionary-App/static/js/main.76393d60.js",
+    "main.js": "/Urban-Dictionary-App/static/js/main.6ceb0879.js",
     "static/media/landing_transparent.png": "/Urban-Dictionary-App/static/media/landing_transparent.2b24801da5a6c4c552b7.png",
     "index.html": "/Urban-Dictionary-App/index.html",
     "main.b2294b72.css.map": "/Urban-Dictionary-App/static/css/main.b2294b72.css.map",
-    "main.76393d60.js.map": "/Urban-Dictionary-App/static/js/main.76393d60.js.map"
+    "main.6ceb0879.js.map": "/Urban-Dictionary-App/static/js/main.6ceb0879.js.map"
   },
   "entrypoints": [
     "static/css/main.b2294b72.css",
-    "static/js/main.76393d60.js"
+    "static/js/main.6ceb0879.js"
   ]
 }
